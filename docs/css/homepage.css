@@ -5,7 +5,7 @@
 
 .wrapper    {
     display: grid;
-    grid-template-columns: 7fr 1fr;
+    grid-template-columns: 1fr 7fr;
     grid-template-rows: 1fr 1fr;
     box-sizing: border-box;
     grid-gap: 15px;
@@ -21,7 +21,7 @@ body    {
 }
 
 .main-content   {
-    text-align: right;
+    text-align: left;
 }
 
 .noise  {
@@ -30,7 +30,7 @@ body    {
 }
 
 .sidebar    {
-    text-align: right;
+    text-align: left;
 }
 
 .sidebar img    {
