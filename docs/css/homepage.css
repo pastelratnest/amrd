@@ -6,7 +6,6 @@
 .wrapper    {
     display: grid;
     grid-template-columns: 1fr 7fr;
-    grid-template-rows: 1fr 1fr;
     box-sizing: border-box;
     grid-gap: 15px;
     max-height: 500px;
