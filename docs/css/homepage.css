@@ -5,16 +5,17 @@
 
 .wrapper    {
     display: grid;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 7fr 1fr;
     grid-template-rows: 1fr 1fr;
     box-sizing: border-box;
     grid-gap: 15px;
+    max-height: 500px;
 }
 
 body    {
     font-family: 'Courier Prime', monospace;
     font-size: 17px;
-    margin: 1rem;
+    margin: 20px;
     background: black;
     color: white;
 }
@@ -33,23 +34,22 @@ body    {
 }
 
 .sidebar img    {
-    justify-self: right;
+
 }
 
 .sidebar ul     {
     list-style: none;
-    justify-self: right;
 }
 
 .sidebar a  {
     text-decoration: none;
-    color: rebeccapurple;
+    color: white;
 } 
 
 .sidebar a:hover    {
-    color: white;
+    color: #9e4d9d;
 }
 
-.gp     {
-    width: 200px;
+.hp     {
+    width: 160px;
 }
